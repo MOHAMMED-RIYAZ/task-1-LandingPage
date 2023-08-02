@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Landing Page </title>
+    <link rel="stylesheet" type="text/css" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav class="nav1">
+        <div>
+            <p>
+                Welcome to  My school
+            </p>
+        </div>
+        <div>
+            <i class="fa fa-github"> </i>
+            
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <a href="#" >Sign up</a>
+            <a href="#">Sign In</a>
+
+        </div>
+    </nav>
+
+    <nav class="nav2">
+        <div>
+            <img src="data:image/png;base64,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">
+        </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Admission</a>
+                <a href="#">Course</a>
+                <a href="#">Events</a>
+                <a href="#">Student</a>
+                <a href="#">Contact</a>
+                <a href="#">Home</a>
+            </div>
+    </nav>
+    <div class="h-text">
+        <h1>
+            WELCOME TO <span> UNIVERSITY</span> 
+        </h1>
+        <p>
+           Gives You More Knowledge
+        </p>
+        <a href="#">Courses</a>
+        <a href="#">Learn more</a>
+    </div>
+</header>
+</body>
+</html>
+
+//CSS
+
+/*font-family: 'Dancing Script', cursive;*/
+
+*{padding:0;margin:0;box-sizing:border-box; font-family: sans-serif;}
+
+.nav1{
+    width:100%;
+    height:50px;
+    color:white;
+    background:#222f3e;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i{
+    margin: 0 5 px;
+
+}
+.nav1  a{
+ text-decoration: none;
+ color: white;
+ padding: 5px 10px;
+ background: rgb(255, 140, 0);
+}
+.nav2 {
+width:100%;
+height: 130px;
+background: white;
+color:black;
+display:flex;
+justify-content: space-around;
+align-items: center;
+padding:0px 70px;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding:10px 20px
+
+}
+header{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.shiksha.com/mediadata/images/1533872709phpYrjThV_g.jpg');
+    background-size: 100%;
+}
+.h-text{
+    max-width: 600px;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-family: 'Dancing Script', cursive;  
+}.h-text span{
+    font-family: 'Dancing Script', cursive;  
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(255, 140, 0);
+    padding : 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+
